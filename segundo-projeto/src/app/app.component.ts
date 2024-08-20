@@ -2,10 +2,12 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TerceiroComponenteComponent } from './terceiro-componente/terceiro-componente.component';
 import { QuartoComponenteComponent } from './quarto-componente/quarto-componente.component';
+import { SetimoComponenteComponent } from "./setimo-componente/setimo-componente.component";
+import { OitavoComponenteComponent } from "./oitavo-componente/oitavo-componente.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, TerceiroComponenteComponent,QuartoComponenteComponent],
+  imports: [RouterOutlet, TerceiroComponenteComponent, QuartoComponenteComponent, SetimoComponenteComponent, OitavoComponenteComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

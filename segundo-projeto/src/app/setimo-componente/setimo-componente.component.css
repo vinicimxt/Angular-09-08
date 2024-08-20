@@ -1,0 +1,15 @@
+.quadrado {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+.circulo {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(251, 255, 0);
+}
+.triangulo {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+}
